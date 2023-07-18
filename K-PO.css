@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+
 *{
   font-family: 'Poppins', sans-serif;
   margin:0;
@@ -6,7 +9,7 @@
 }
 
 
-//------------------------------ NAVBAR -------------------------------- //
+/*------------------------------ NAVBAR --------------------------------*/
 
 .body{
   background-color: floralwhite;
@@ -41,12 +44,13 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 nav li {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 23px;
+  padding-top: 10px;
   position: static;
   top: 0;
 }
@@ -56,6 +60,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+
 }
 
 nav a:hover {
@@ -67,7 +72,7 @@ nav a::before {
   display: block;
   height: 5px;
   background-color: #444;
-  position: absolute;
+  position: relative;
   top: 0;
   width: 0%;
   transition: all ease-in-out 250ms;
@@ -84,16 +89,102 @@ footer {
   text-align: center;
 }
 
+/*-------------------------Home------------------------------*/
 
-//-------------------------ABOUT US------------------------------//
+.home_section {
+  background-color: #F4B034;
+  box-sizing: border-box;
+  height: 90vh;
+  display:flex ;
+  align-items: center;
+  position: relative;
+}
+
+.bg{
+  position: relative;
+  margin-top: -590px;
+  
+}
+
+.home_section .bg img{
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  left: 510px;
+  top: 90px;
+  margin-bottom: 200px;
+
+}
+
+.welcome {
+  margin: 19px;
+}
+.welcome h2 {
+  position: absolute;
+  font-size: 80px;
+  z-index: 1;
+  top: 100px;
+  left: 50px;
+
+}
+
+.welcome h3 {
+  position: absolute;
+  font-size: 80px;
+  z-index: 1;
+  top: 170px;
+  left: 50px;
+  color: rebeccapurple;
+
+}
+
+.welcome h4 {
+  position: absolute;
+  font-size: 80px;
+  z-index: 1;
+  top: 245px;
+  left: 50px;
+  color: rebeccapurple;
+}
+
+.welcome p{
+  position: absolute;
+  font-size: 19px;
+  top: 340px;
+  left: 50px;
+}
+.home_section .btn-product{
+  position: absolute;
+  bottom: 160px;
+  left: 50px;
+}
+
+.home_section .btn-product a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 15px 35px;
+  background-color: rebeccapurple;
+  border-radius: 30px;
+
+}
+
+.home_section .btn-product a:hover{
+  background-color: rgb(84, 43, 126);
+}
 
 
-@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+
+/*-------------------------ABOUT US------------------------------*/
+
+
+
 
 
 .heading {
   border: 2px solid;
-  margin: auto;
+  margin: 0;
   width: 30%;
   padding: 10px;
 }
@@ -175,7 +266,7 @@ footer {
 }
 
 
- //------------------------ OUR TEAM -------------------------//
+ /*------------------------ OUR TEAM -------------------------*/
 
 .wrapper{
   margin-top: 50px;
@@ -237,4 +328,4 @@ footer {
   padding: 5px;
 }
 
-//-------------------------------- PRODUCTS ------------------------------- //
+/*-------------------------------- PRODUCTS -------------------------------*/
