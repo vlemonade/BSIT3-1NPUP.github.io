@@ -253,21 +253,62 @@ footer {
 /*-------------------------ABOUT US------------------------------*/
 
 
+.company {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
 
+.company_mission{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: rebeccapurple;  
+  position: relative;
+}
 
+.company h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: rebeccapurple;
+}
+
+.vision h4{
+  font-family: 'Poppins', sans-serif;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: rebeccapurple;
+}
 
 .heading {
-  border: 2px solid;
-  margin: 0;
-  width: 30%;
-  padding: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
 }
 
 .heading h1 {
-  font-size: 30px;
-  color: black;
+  font-size: 40px;
+  color: rebeccapurple;
   margin-bottom: 25px;
   position: relative;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .heading h1::before {
@@ -277,7 +318,7 @@ footer {
   height: 3px;
   display: block;
   margin: 0 auto;
-  background-color: black;
+  background-color: rebeccapurple;
 }
 
 .heading p{
@@ -328,7 +369,7 @@ footer {
 .about-content p{
   font-size: 18px;
   line-height: 1.5;
-  color: #666;
+  color: #black;
 }
 
 .about-content .read-more{
@@ -338,6 +379,54 @@ footer {
   font-size: 19px;
 }
 
+/*------------------------Mission & Vision-----------------------*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.theme-text {
+  color: rebeccapurple;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+}
+.card {
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card:hover {
+  color: white;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  background: rebeccapurple;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+}
+.card:hover::before {
+  left: 0%;
+  color: white;
+}
+.container-fluid {
+  background-image: url("blob-scene-haikei.svg");
+  background-position: center;
+  background-size: cover;
+}
 
  /*------------------------ OUR TEAM -------------------------*/
 
@@ -372,15 +461,15 @@ footer {
 }
 
 .team .team_member h3{
-  color: #81c644;
+  color: rebeccapurple;
   font-size: 26px;
   margin-top: 50px;
 }
 
 .team .team_member p.role{
-  color: #ccc;
+  color: #black;
   margin: 12px 0;
-  font-size: 12px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
